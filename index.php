@@ -133,6 +133,32 @@
             right: 0px;
             font-size: 20px;
         }
+        /* responsive */
+        /* @media only screen and (min-width: 320 ) {
+
+            #tittle
+            {
+                font: 55px "Caveat", sans-serif  !important;
+            }
+            #tittle::before
+            {
+                padding-top: 4%  !important; 
+            }
+            button 
+            {
+                font: 22px "Open Sans Condensed", sans-serif;
+                margin-top: 57px  !important;
+            }
+            h1
+            {
+                margin-top: -40px  !important;
+                font-size: 25px  !important;
+            }
+            h4
+            {
+                font-size: 13px  !important;
+            }
+        } */
     </style>
 </head>
 <body>
