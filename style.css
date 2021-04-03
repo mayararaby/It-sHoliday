@@ -16,7 +16,7 @@ z-index: 2;
 }
 body
 {
-    background-image: url(images/bg_hero_10.jpg);
+    background-image: url(https://its-weekend.herokuapp.com/images/bg_hero_10.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,7 +46,7 @@ position: absolute;
 }
 #tittle::before
 {
-    content: url(images/underline.png);
+    content: url(https://its-weekend.herokuapp.com/images/underline.png);
     padding-left: 6%;
     padding-top: 3%;
 }
