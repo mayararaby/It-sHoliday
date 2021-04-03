@@ -10,13 +10,26 @@
         h1{
             display:none;
         }
+        #textInFooter
+        {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h3> It's Weekend ?</h3>
+    <header>
+        <h3> It's Weekend ?</h3>
+    </header>
     <button onclick="weekend();">What day is today ?</button>
     <h1 id="writeDate"></h1>
-
+    <footer>
+        <div id="textInFooter">
+            <h5>
+                © 2021 . It's Weekend ? . All Rights Reserved Powered by Mayar Araby
+            </h5>
+        </div>
+        
+    </footer>
     <script>
         function displayStatment() {
             document.getElementById("writeDate").style.display = "block";
