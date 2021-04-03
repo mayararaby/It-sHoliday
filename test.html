@@ -14,14 +14,75 @@
         {
             text-align: center;
         }
+        .btn {
+        margin: 1rem;
+        }
+        .btn-jittery {
+        -webkit-animation: jittery 4s infinite;
+                animation: jittery 4s infinite;
+        }
+        @-webkit-keyframes jittery {
+        5%, 50% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(0.9);
+        }
+        15% {
+            transform: scale(1.15);
+        }
+        20% {
+            transform: scale(1.15) rotate(-5deg);
+        }
+        25% {
+            transform: scale(1.15) rotate(5deg);
+        }
+        30% {
+            transform: scale(1.15) rotate(-3deg);
+        }
+        35% {
+            transform: scale(1.15) rotate(2deg);
+        }
+        40% {
+            transform: scale(1.15) rotate(0);
+        }
+        }
+
+        @keyframes jittery {
+        5%, 50% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(0.9);
+        }
+        15% {
+            transform: scale(1.15);
+        }
+        20% {
+            transform: scale(1.15) rotate(-5deg);
+        }
+        25% {
+            transform: scale(1.15) rotate(5deg);
+        }
+        30% {
+            transform: scale(1.15) rotate(-3deg);
+        }
+        35% {
+            transform: scale(1.15) rotate(2deg);
+        }
+        40% {
+            transform: scale(1.15) rotate(0);
+        }
+        }
     </style>
 </head>
 <body>
     <header>
         <h3> It's Weekend ?</h3>
     </header>
-    <button onclick="weekend();">What day is today ?</button>
+    <button class="btn btn-primary btn-jittery" onclick="weekend();">What day is today ?</button>
     <h1 id="writeDate"></h1>
+    
     <footer>
         <div id="textInFooter">
             <h5>
