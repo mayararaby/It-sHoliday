@@ -13,25 +13,25 @@
 <body>
     <div class="dark-layer">
         <div class="pyro" >
-            <div class="before" id="before" style="display: none;"></div>
-            <header id="textInHeader">
-                <span id="tittle"> Is it The Weekend ?</span>
-            </header>
-            <div class="item button-hand btnArea" >
-            <button onclick="weekend();">What day is today ?
-                <div class="hands"></div>
-            </button>
-            </div>
-            <div id="msgWeekend" >
-                <h1 id="writeDate"></h1>
-            </div>
-            <div class="after" id="after" style="display: none;"></div>
+                <div class="before" id="before" style="display: none;"></div>
+                <header id="textInHeader">
+                    <span id="tittle"> Is it The Weekend ?</span>
+                </header>
+                <div class="item button-hand btnArea" >
+                <button onclick="weekend();">What day is today ?
+                    <div class="hands"></div>
+                </button>
+                </div>
+                <div id="msgWeekend" >
+                    <h1 id="writeDate"></h1>
+                </div>
+                <div class="after" id="after" style="display: none;"></div>
         </div>
         <footer>
             <div id="textInFooter">
-                <h4>
+                <h5>
                     © 2021 . Is it The Weekend ? . All Rights Reserved Powered by Mayar Araby
-                </h4>
+                </h5>
             </div>
         </footer>
     </div>
